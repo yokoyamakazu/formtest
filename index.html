@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>YSファクタリング</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="icon" href="./assets/images/favicon.ico" />
+
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script defer type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+<body>
+
+  <section class="main-visual">
+    <div class="main-visual__header">
+        <div class="main-visual__header--inner">
+            <div>
+              <h1 class="main-visual__logo">
+                  <a href="/">
+                      <img src="./assets/images/common/logo_company.png" alt="YSファクタリングのロゴ">
+                  </a>
+              </h1>
+            </div>
+            <div class="main-visual__nav">
+              <div class="contact-contents">
+                <div class="contact-contents__telephone telephone-info">
+                  <div class="telephone-info__top">
+                    <div class="telephone-info__top--text">
+                      お電話でのお問い合わせはこちら
+                    </div>
+                    <!-- /.telephone-info__top--text -->
+                    <div class="telephone-info__top--business-hours font-white">
+                      【営業時間】 平日 09:00 - 19:00
+                    </div>
+                    <!-- /.telephone-info__top--business-hours -->
+                  </div>
+                  <!-- /.telephone-info__top -->
+                  <div class="telephone-info__under">
+                    <div class="telephone-info__under--log">
+                      <img
+                        src="/assets/images/common/icon_freedial.png"
+                        alt="フリーダイヤルアイコン"
+                      />
+                    </div>
+                    <!-- /.telephone-info__under--log -->
+                    <div class="telephone-info__under--number">
+                      <a class="font-white" href="tel:03-6662-4406">03 - 6662 - 4406</a>
+                    </div>
+                    <!-- /.telephone-info__under--number -->
+                  </div>
+                  <!-- /.telephone-info__under -->
+                </div>
+                <!-- /.contact-contents__telephone -->
+                <div class="contact-contents__mail-line">
+                  <a href="contact.html" class="mail-info">
+                    <div class="mail-info__img">
+                      <img
+                        src="/assets/images/common/icon_mail.png"
+                        alt="メールアイコン"
+                      />
+                    </div>
+                    <!-- /.mail-info__img -->
+                    <p class="mail-info__text">
+                      24時間受付中<br />
+                      お問い合わせ
+                    </p>
+                    <!-- /.mail-info__text --> </a
+                  ><!-- /.mail-info -->
+                  <a href="#" class="line-info">
+                    <div class="line-info__img">
+                      <img
+                        src="/assets/images/common/icon_line-app_ios.png"
+                        alt="LINEアイコン"
+                      />
+                    </div>
+                    <!-- /.line-info__img -->
+                    <p class="line-info__text">無料相談</p>
+                    <!-- /.line-info__text --> </a
+                  ><!-- /.line-info -->
+                </div>
+                <!-- /.contact-contents__mail-line -->
+              </div>
+              <!-- /.contact-contents -->
+            </div> <!--.main-visual__nav-->
+        </div>
+    </div> <!--.main-visual__header-->
+    <div class="main-visual__main">
+      <div class="main-visual__content" >
+        <div class="main-visual__medal">
+          <img src="assets/images/common/mv_gold-medal.png" alt="">
+        </div>
+        <div class="main-visual__main-copy">
+          <div class="main-visual__main-copy--box">
+            <p class="main-visual__main-copy--text">YSファクタリングで<br>経営の<span class="main-visual__main-copy--text-strong">スピードアップ!<span></p>
+          </div>
+        </div>
+        <div class="main-visual__side-copy">
+          <span class="main-visual__side-copy--label">最短即日!</span>
+          <p class="main-visual__side-copy--text">売掛債権を早期に現金化することで、 <br>経営の効率化が図れます！</p>
+        </div>
+        <div class="main-visual__points">
+          <img class="u-desktop" src="assets/images/common/mv_gold-points.png" alt="">
+          <img class="u-mobile" src="assets/images/common/mv_sp_gold-points.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section> <!--,main-visual-->
+
+  <!-- SP時のコンタクトメニュー -->
+  <div class="contact-contents__sp">
+    <div class="contact-sp">
+      <a href="tel:03-6662-4406" class="contact-sp__telephone">
+        <div class="contact-sp__telephone--img">
+          <img
+            src="/assets/images/common/icon-tele-sp.png"
+            alt="受話器のアイコン"
+          />
+        </div>
+        <!-- /.contact-sp__telephone--img -->
+        <div class="contact-sp__telephone--text">
+          <span>お電話はこちら</span>平日09:00 - 19:00
+        </div>
+        <!-- /.contact-sp__telephone--text -->
+      </a>
+      <!-- /.contact-sp__telephone -->
+      <a href="#" class="contact-sp__mail">
+        <div class="contact-sp__mail--img">
+          <img
+            src="/assets/images/common/icon-mail-sp.png"
+            alt="メールのアイコン"
+          />
+        </div>
+        <!-- /.contact-sp__mail--img -->
+        <div class="contact-sp__mail--text">
+          <span>24時間受付中</span>お問い合わせ
+        </div>
+        <!-- /.contact-sp__mail--text -->
+      </a>
+      <!-- /.contact-sp__mail -->
+      <a href="#" class="contact-sp__line">
+        <div class="contact-sp__line--img">
+          <img
+            src="/assets/images/common/icon-line-sp.png"
+            alt="ラインのアイコン"
+          />
+        </div>
+        <!-- /.contact-sp__line--img -->
+        <div class="contact-sp__line--text">簡単相談</div>
+        <!-- /.contact-sp__line--text -->
+      </a>
+      <!-- /.contact-sp__line -->
+    </div>
+    <!-- /.contact-contents__sp -->
+  </div>
+  <!-- /.contact-sp -->
+
+  <!-- バーガーメニュー -->
+  <div class="burger-menu l-burger-menu">
+    <div class="btn-trigger" id="btn01">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div><!-- /.burger-menu -->
+
+  <!-- ドロワーメニュー -->
+  <div class="drawer-menu">
+    <ul class="drawer-menu__lists">
+      <li class="drawer-menu__list"><a href="/">ホーム</a></li><!-- /.drawer-menu__list -->
+      <li class="drawer-menu__list"><a href="#appeal">YSの強み</a></li><!-- /.drawer-menu__list -->
+      <li class="drawer-menu__list"><a href="#structure">ファクタリングの仕組み</a></li><!-- /.drawer-menu__list -->
+      <li class="drawer-menu__list"><a href="#guide">ご利用案内</a></li><!-- /.drawer-menu__list -->
+      <li class="drawer-menu__list"><a href="#voice">お客様の声</a></li>
+      <li class="drawer-menu__list"><a href="question.html">よくある質問</a></li><!-- /.drawer-menu__list -->
+      <li class="drawer-menu__list"><a href="contact.html">お問い合わせ</a></li><!-- /.drawer-menu__list -->
+    </ul><!-- /.drawer-menu__lists -->
+  </div><!-- /.drawer-menu -->
+
+  <header class="header__menu">
+      <div class="header__inner">
+          <ul class="header__items">
+              <li class="header__item"><a href="/">TOP</a></li>
+              <li class="header__item"><a href="#appeal">YSの強み</a></li>
+              <li class="header__item"><a href="#structure">ファクタリングの仕組み</a></li>
+              <li class="header__item"><a href="#guide">ご利用案内</a></li>
+              <li class="header__item"><a href="#voice">お客様の声</a></li>
+              <li class="header__item"><a href="question.html">よくある質問</a></li>
+              <li class="header__item"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+      </div>
+  </header>
+
+  <section class="sub-visual">
+      <div class="sub-visual__img">
+          <div class="sub-visual__content">
+            <div class="sub-visual__1"><img src="assets/images/common/sv_comment01.png" alt=""></div>
+            <div class="sub-visual__2"><img src="assets/images/common/sv_comment02.png" alt=""></div>
+            <div class="sub-visual__3"><img src="assets/images/common/sv_comment03.png" alt=""></div>
+          　<div class="sub-visual__4"><img src="assets/images/common/sv_comment04.png" alt=""></div>
+          </div>
+      </div>
+  </section>
+
+  <section class="contact">
+    <div class="recommendation l-recommendation">
+      <div class="recommendation__lead">
+        貸し倒れリスクなし！<br />
+        迅速な事業資金の調達ならYSファクタリング
+      </div>
+      <!-- /.recommendation__lead -->
+      <div class="contact-contents l-contact-contents">
+        <div class="contact-contents__telephone telephone-info">
+          <div class="telephone-info__top">
+            <div class="telephone-info__top--text">
+              お電話でのお問い合わせはこちら
+            </div>
+            <!-- /.telephone-info__top--text -->
+            <div class="telephone-info__top--business-hours font-gray">
+              【営業時間】 平日 09:00 - 19:00
+            </div>
+            <!-- /.telephone-info__top--business-hours -->
+          </div>
+          <!-- /.telephone-info__top -->
+          <div class="telephone-info__under">
+            <div class="telephone-info__under--log">
+              <img
+                src="/assets/images/common/icon_freedial.png"
+                alt="フリーダイヤルアイコン"
+              />
+            </div>
+            <!-- /.telephone-info__under--log -->
+            <div class="telephone-info__under--number">
+              <a class="font-gray" href="tel:03-6662-4406">03 - 6662 - 4406</a>
+            </div>
+            <!-- /.telephone-info__under--number -->
+          </div>
+          <!-- /.telephone-info__under -->
+        </div>
+        <!-- /.contact-contents__telephone -->
+        <div class="contact-contents__mail-line">
+          <a href="" class="mail-info">
+            <div class="mail-info__img">
+              <img
+                src="/assets/images/common/icon_mail.png"
+                alt="メールアイコン"
+              />
+            </div>
+            <!-- /.mail-info__img -->
+            <p class="mail-info__text">
+              24時間受付中<br />
+              お問い合わせ
+            </p>
+            <!-- /.mail-info__text --> </a
+          ><!-- /.mail-info -->
+          <a href="" class="line-info">
+            <div class="line-info__img">
+              <img
+                src="/assets/images/common/icon_line-app_ios.png"
+                alt="LINEアイコン"
+              />
+            </div>
+            <!-- /.line-info__img -->
+            <p class="line-info__text">無料相談</p>
+            <!-- /.line-info__text --> </a
+          ><!-- /.line-info -->
+        </div>
+        <!-- /.contact-contents__mail-line -->
+      </div>
+      <!-- /.contact-contents -->
+    </div>
+    <!-- /.recommendation -->
+  </section>
+
+  <section class="appeal" id="appeal">
+    <div class="appeal__title">
+      <P>当社が選ばれる<span class="appeal__title--strong">6</span>つの魅力</P>
+    </div>
+    <div class="appeal__cards--inner">
+        <div class="appeal__card"> <!--card01-->
+          <img class="appeal__card--point" src="assets/images/appeal/point01.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">最短即日入金スピード対応</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point01.png" alt="">
+            <p class="appeal__card--description">YSファクタリングでは、必要な書類をご準備いただければ、最短即日にお支払いすることが可能です。また、お問い合わせ後にすぐ連絡させていただいています。</p>
+          </div>
+        </div>
+        <div class="appeal__card"> <!--card02-->
+          <img class="appeal__card--point" src="assets/images/appeal/point02.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">全国対応いたします</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point02.png" alt="">
+            <p class="appeal__card--description">YSファクタリングは、お困りになっている全国のお客様を対象にサービスを行っております。お気軽にご連絡ください。</p>
+          </div>
+        </div>
+        <div class="appeal__card"> <!--card03-->
+          <img class="appeal__card--point" src="assets/images/appeal/point03.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">90%を超える審査通過率</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point03.png" alt="">
+            <p class="appeal__card--description">ファクタリングの審査基準は、売掛先の信用度です。売掛先企業様の業績に問題がなければ審査に通過する可能性が高いです。</p>
+          </div>
+        </div>
+        <div class="appeal__card"> <!--card04-->
+          <img class="appeal__card--point" src="assets/images/appeal/point04.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">負債にならず、信用を確保</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point04.png" alt="">
+            <p class="appeal__card--description">ファクタリングサービスは融資ではありません。会社の負債にはなりませんので、信用に傷がつくことはありません。</p>
+          </div>
+        </div>
+        <div class="appeal__card"> <!--card05-->
+          <img class="appeal__card--point" src="assets/images/appeal/point05.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">業界最低水準の手数料</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point05.png" alt="">
+            <p class="appeal__card--description">YSファクタリングの手数料は、業界最低水準です。他社からの乗り換えの場合、もう一段お得な手数料でご利用いただけます。</p>
+          </div>
+        </div>
+        <div class="appeal__card"> <!--card06-->
+          <img class="appeal__card--point" src="assets/images/appeal/point06.png" alt="">
+          <div class="appeal__card--content">
+            <p class="appeal__card--title">償還請求権なしの完全買取</p>
+            <img class="appeal__card--image" src="assets/images/appeal/image-point06.png" alt="">
+            <p class="appeal__card--description">万が一、買取させて頂いた売掛金が回収困難になっても、お客様に保証を求めることはありません。ご心配いりません。</p>
+          </div>
+        </div>
+    </div> <!--.appeal__cards-->
+  </section>
+
+  <section id="structure" class="structure">
+    <div class="structure__inner inner">
+        <h2 class="structure__head">ファクタリングの仕組み</h2>
+        <div class="structure__content">
+            <h3 class="structure__content-title">2社間の場合</h3>
+            <div class="structure__items">
+                <div class="structure__image"><img src="./src/images/common/fac-02.png" alt="2社間"></div>
+                <div class="structure__p">
+                    ファクタリングは、売掛債権を早期に現金化したい場合に利用されています。 お持ちの売掛債権をファクタリング会社に売却すれば、手数料を差し引かれた金額を受け取ることができます。 保証人や担保の必要はありません。また弊社と御社の2社間の契約ですので、取引先の合意を得る必要もありません。
+                </div>
+            </div>
+        </div>
+        <div class="structure__content">
+            <h3 class="structure__content-title">3社間の場合</h3>
+            <div class="structure__items">
+                <div class="structure__image"><img src="./src/images/common/fac-03.png" alt="３社間"></div>
+                <div class="structure__p">
+                    3社間での取引の場合、取引先に対して売掛金売却の同意を得る必要があります。具体的には、取引先に債権譲渡の旨を伝えて承諾書を受け取ります。承諾を取った後、ファクタリング会社に売却した売掛金から手数料を差し引いた金額が、事業主の口座へ振り込まれます。 その後、譲渡した売掛金の入金日に、売掛先からファクタリング会社へ入金される流れになっています。 取引先に対してファクタリングの利用が知られるほか、同意を得るなどの手続きの面でも2社間取引より時間がかかるケースがほとんどです。
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="guide" id="guide">
+    <h2 class="user-guide__head">ご利用案内</h2>
+    <div class="user-guide__contents">
+      <!-- ご利用案内の案内カード -->
+      <div class="guide-card">
+        <div class="guide-card__title">ご相談・お問い合わせ</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-contact.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          お電話・メールどちらでも問題ございませんのでお気軽にご連絡ください。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+
+      <div class="guide-card">
+        <div class="guide-card__title">折り返しのご連絡</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-turningback.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          YSファクタリングからお客様へ折り返しのご連絡を行います。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+
+      <div class="guide-card">
+        <div class="guide-card__title">ヒアリング</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-hearing.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          金額、入金期日、その他条件含めてヒヤリングし、お客様にあった申請内容を決定します。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+
+      <div class="guide-card">
+        <div class="guide-card__title">審査</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-questionnaire.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          契約書類は弊社で作成し、審査が通るまで進めます。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+
+      <div class="guide-card">
+        <div class="guide-card__title">お見積もり</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-calculator.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          審査が通ったら、調達可能な金額などから判断し費用を見積もりします。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+
+      <div class="guide-card">
+        <div class="guide-card__title">ご成約・現金化</div>
+        <!-- /.guide-card__title -->
+        <div class="guide-card__img">
+          <img src="/assets/images/common/guide-cashing.png" alt="" />
+        </div>
+        <!-- /.guide-card__img -->
+        <p class="guide-card__text">
+          契約内容を確認いただき次第、すぐに入金いたします。
+        </p>
+        <!-- /.guide-card__text -->
+      </div>
+      <!-- /.guide-card -->
+    </div>
+    <!-- /.user-guide__contents -->
+    <!-- 必要項目 -->
+    <div class="user-guide__required">
+      <ul class="required__lists">
+        <li class="required__list">会社経営者様本人の本人確認書類</li><!-- /.required__list -->
+        <li class="required__list">商業登記簿謄本</li><!-- /.required__list -->
+        <li class="required__list">印鑑証明書</li><!-- /.required__list -->
+        <li class="required__list">決算書の写し</li><!-- /.required__list -->
+        <li class="required__list">売掛金にかかわる書類</li><!-- /.required__list -->
+        <li class="required__list">取引先との契約書</li><!-- /.required__list -->
+      </ul><!-- /.required__list -->
+    </div><!-- /.user-guide__required -->
+  </section>
+
+
+  <section class="voice" id="voice">
+    <h2 class="voice__title">お客様の声</h2>
+    <div class="voice__cards inner">
+      <div class="voice__card">
+        <div class="voice__avatar">
+          <div class="voice__avatar--name">雑貨店店長  R様</div>
+          <img src="/src/images/common/group118-1.svg" alt="R様の画像">
+        </div>
+        <div class="voice__content">
+          <div class="voice__content--price">
+            資金調達額  <span>90万円</span>
+          </div>
+          <div class="voice__content--text">
+
+            <p class=".voice__content--text__p ">YSファクタリングさんは、利用者の立場で考えてくれています。私は起業したばかりだったこともあり、経営相談にものっていただきました。少額でも快く対応していただき、おかげさまで売上債権も売却できました。</p>
+          </div>
+        </div>
+      </div>
+      <div class="voice__card">
+        <div class="voice__avatar">
+          <div class="voice__avatar--name">飲食店経営 H様</div>
+          <img src="/src/images/common/group118-2.svg" alt="H様の画像">
+        </div>
+        <div class="voice__content">
+          <div class="voice__content--price">
+            資金調達額  <span>180万円</span>
+          </div>
+          <div class="voice__content--text">
+            銀行の審査が厳しく借り入れができず困っていました。友人に相談したところ、YSファクタリングを紹介してもらいました。担保の必要もないまま、運転資金を確保できました。YSファクタリングには感謝しています。
+          </div>
+        </div>
+      </div>
+      <div class="voice__card">
+        <div class="voice__avatar">
+          <p class="voice__avatar--name">介護事業<br>株式会社F様</p>
+          <img src="/src/images/common/group118-3.svg" alt="F様の画像">
+        </div>
+        <div class="voice__content">
+          <div class="voice__content--price">
+            資金調達額  <span>300万円</span>
+          </div>
+          <div class="voice__content--text">
+            介護報酬は回収までに時間がかかるため、慢性的にキャッシュフローが難しくなっていました。とても穏やかな口調で説明をしていただき、無事キャッシュフローを整えることができました。感謝しています。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="faq__wrapper inner">
+      <h2 class="faq__title">よくある質問</h2>
+      <dl class="faq__list">
+        <dt class="faq__question">
+          プライバシーは守られますか？
+        </dt>
+        <dd class="faq__answer">
+          ご心配ありません。お客様のプライバシーはしっかりと守られています。契約内容に守秘義務や個人情報の取り扱いに関する項目が盛り込まれています。また、弊社内の社員教育も定期的に行っています。
+        </dd>
+      </dl>
+      <dl class="faq__list">
+        <dt class="faq__question">
+          貸金業者とは違うのですか？
+        </dt>
+        <dd class="faq__answer">
+          まったく違います。ファクタリングは、お金を貸すのではなく「債権の売買契約」を行います。企業間お取引における売掛金を償還請求権の無い契約で買取りする、決済専門商社になります。
+        </dd>
+      </dl>
+      <dl class="faq__list">
+        <dt class="faq__question">
+          金融機関（銀行・ノンバンク）の融資との違いはどこになりますか？
+        </dt>
+        <dd class="faq__answer">
+          ファクタリングは融資ではなく、債権売買が基本的な契約です。金融機関と比べ、審査が速い、資金調達成功率が高いなどの特徴があります。また、ファクタリングでは償還請求権がないことも大きな特徴です。
+        </dd>
+      </dl>
+      <div class="faq__button"><a href="question.html">もっと詳しく</a></div>
+    </div>
+  </section>
+
+  <footer >
+    <div class="footer__inner">
+      <ul class="footer__menu--items">
+          <li class="footer__menu--item"><a href="about.html">会社概要</a></li>
+          <li class="footer__menu--item"><a href="privacy-policy.html">プライバシーポリシー</a></li>
+      </ul>
+    </div>
+    <div class="footer__credit">
+      <p>&copy; Copyright YSファクタリング All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="to--top"><a href="#">TOP</a></div>
+
+
+  <!-- 自分で作るscript↓ -->
+  <script src="js/script.js"></script>
+</body>
+</html>
